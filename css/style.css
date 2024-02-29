@@ -113,34 +113,6 @@ h4 {
     font-size: 0.875rem;
 }
 
-@media screen and (min-width: 800px) {
-    h1 {
-        font-size: 4rem;
-    }
-    h2 {
-        font-size: 2.5rem;
-    }
-    h3 {
-        font-size: 1.75rem;
-    }
-    h4 {
-        font-size: 1rem;
-    }
-    body {
-        font-size: 1rem;
-    }
-    h1,
-    h2,
-    h3,
-    h4 {
-        line-height: 1;
-    }
-    .gift-info p {
-        color: var(--clr-grey-4);
-        /* text-align: justify; */
-    }
-}
-
 
 /*  global classes */
 
@@ -213,19 +185,6 @@ Countdown Timer
     font-size: 0.85rem;
 }
 
-@media screen and (min-width: 992px) {
-    .section-center {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        place-items: center;
-        gap: 3rem;
-        width: 95vw;
-    }
-    .gift-img {
-        margin-bottom: 0;
-    }
-}
-
 .gift-info p {
     margin: 2rem 0;
 }
@@ -257,4 +216,46 @@ Countdown Timer
     font-size: 2rem;
     margin-bottom: 0.25 rem;
     letter-spacing: var(--spacing);
+}
+
+@media screen and (min-width: 992px) {
+    .section-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        gap: 3rem;
+        width: 95vw;
+    }
+    .gift-img {
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    body {
+        font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 1;
+    }
+    .gift-info p {
+        color: var(--clr-grey-4);
+        /* text-align: justify; */
+    }
 }
